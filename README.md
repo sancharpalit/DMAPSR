@@ -25,12 +25,8 @@ python inference_dmapsr.py -i [image folder/image path] -o [result folder] --num
     + The number of sampling steps: ``--num_steps``.
     + If your GPU memory is limited, please add the option ``--chopping_bs 1``.
 
-### :whale: Now also available in Docker
-```bash
-docker compose up -d # Go to http://127.0.0.1:7860/
-```
 
-### :airplane: Reproducing our paper results
+### whale2: Reproducing our paper results
 + Synthetic dataset of ImageNet-Test: [Google Drive](https://drive.google.com/file/d/1PRGrujx3OFilgJ7I6nW7ETIR00wlAl2m/view?usp=sharing).
 
 + Real data for image super-resolution: [RealSRV3](https://github.com/csjcai/RealSR) | [RealSet80](testdata/RealSet80)
